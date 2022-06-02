@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Prata&display=swap');
+
+*{
+    outline: none;
+    list-style: none;
+    margin: 0;padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 1.6;
+    border: none;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Prata', serif;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+:root{
+    --primary-color: #000000a7;
+    --secondary-color: #84100d;
+    ---light-color:#00000026;
+    --our-color:white;
+    --my-color:#91989e;
+}
+.navbar .nav-item-1:hover{
+    background:var(--primary-color) ;
+    border-radius: .4rem;
+    padding: .1rem .2rem;
+}
+.navbar .nav-item-2:hover{
+    background:var(--primary-color) ;
+    border-radius: .4rem;
+    padding: .1rem .2rem;
+}
+.navbar .nav-item-3:hover{
+    background:var(--primary-color) ;
+    border-radius: .4rem;
+    padding: .1rem .2rem;
+}
+.navbar .nav-item-4:hover{
+    background:var(--primary-color) ;
+    border-radius: .4rem;
+    padding: .1rem .2rem;
+}
+.bg{
+    height: 100vh;
+    background: url(/assets/images/backg.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.hello{
+    font-size: 4.5rem;
+}
+.hello-1{
+    font-size: 2rem;
+}
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:var(--our-color) ;
+}
+#about{
+    background: #91989e27;
+    margin: 1rem 0;
+}
+.imageaboutpage {
+    width: 100%;
+}
+.servicestext .card{
+    height: 300px;
+    cursor: pointer;
+}
+.servicesicon{
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+}
+.card:hover .servicesicon{
+    color:var(--secondary-color);
+    
+}
+.servicestext:hover{
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+#portfolio .card{
+    cursor: pointer;
+}
+#footer .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+#footer .social-icons .bi-facebook{
+    padding: .5rem;
+}
+#footer .social-icons .bi-instagram{
+    padding: .5rem;
+}
+#footer .social-icons .bi-twitter{
+    padding: .5rem;
+}
+#footer .social-icons .bi-linkedin{
+    padding: .5rem;
+}
+#footer .social-icons .bi-snapchat{
+    padding: .5rem;
+}
+#footer .social-icons .bi-whatsapp{
+    padding: .5rem;
+}
+
+.bi-facebook:hover,.bi-instagram:hover,.bi-twitter:hover,.bi-linkedin:hover,.bi-snapchat:hover,.bi-whatsapp:hover{
+    color: var(--our-color);
+}
+.bi {
+    color: #000;
+}
+#footer {
+    background: var(--my-color);
+    text-align: center;
+}
