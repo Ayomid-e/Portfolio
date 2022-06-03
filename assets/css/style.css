@@ -110,7 +110,7 @@ img{
     font-size: 36px;
     cursor: pointer;
 }
-/* #footer .social-icons .bi-facebook{
+#footer .social-icons .bi-facebook{
     padding: .2rem;
 }
 #footer .social-icons .bi-instagram{
@@ -127,7 +127,7 @@ img{
 }
 #footer .social-icons .bi-whatsapp{
     padding: .2rem;
-} */
+}
 
 .bi-facebook:hover,.bi-instagram:hover,.bi-twitter:hover,.bi-linkedin:hover,.bi-snapchat:hover,.bi-whatsapp:hover{
     color: var(--our-color);
