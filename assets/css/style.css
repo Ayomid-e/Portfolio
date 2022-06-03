@@ -111,22 +111,22 @@ img{
     cursor: pointer;
 }
 #footer .social-icons .bi-facebook{
-    padding: .5rem;
+    padding: .2rem;
 }
 #footer .social-icons .bi-instagram{
-    padding: .5rem;
+    padding: .2rem;
 }
 #footer .social-icons .bi-twitter{
-    padding: .5rem;
+    padding: .2rem;
 }
 #footer .social-icons .bi-linkedin{
-    padding: .5rem;
+    padding: .2rem;
 }
 #footer .social-icons .bi-snapchat{
-    padding: .5rem;
+    padding: .2rem;
 }
 #footer .social-icons .bi-whatsapp{
-    padding: .5rem;
+    padding: .2rem;
 }
 
 .bi-facebook:hover,.bi-instagram:hover,.bi-twitter:hover,.bi-linkedin:hover,.bi-snapchat:hover,.bi-whatsapp:hover{
